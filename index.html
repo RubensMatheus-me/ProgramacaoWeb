@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js"
+    integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs"
+    crossorigin="anonymous"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="somando-tudo">
+        <input type="text" id="nameDocument" >
+        <input type="number" id="value1">
+        <input type="number" id="value2">
+        <input type="submit" value="Somar" onclick="somar(), gerarPDF()"/>
+        <input type="file" id="file" onchange="readerFile()">
+        <p id="resultado"></p>
+    </section>
+
+<script src="index.js"></script>
+</body>
+</html>
